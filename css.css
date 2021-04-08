@@ -1,0 +1,38 @@
+body {
+    display: grid;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-size: 1rem;
+    grid-template-rows: auto 1fr 100px;
+
+}
+
+header {
+    background-color: black;
+    color: white;
+    grid-column: 1;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+main {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+
+main div {
+    border: none;
+}
+
+footer {
+    background-color: black;
+    grid-column: 1;
+    font-size: 8pt;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+}
