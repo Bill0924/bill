@@ -6,12 +6,12 @@ body{
     
 }
 header{
-    flex-grow:1;
-    background-color: black;
+    flex-grow:3;
+   
 }
 footer{
-    flex-grow:1;
-    background-color: black;
+    flex-grow:3;
+    
 }
 main{
     flex-grow: 12;
@@ -21,20 +21,31 @@ main{
     margin: 2px;
         }
 .title{
-    flex-grow:1;
-    background-color: blueviolet;
+    height: 20vh;
     
 }
 .picture{
-    flex-grow:6;
-    background-color: rgb(226, 43, 119);
+    flex-grow:5;
+    display: flex;
+    
+    flex-direction:row ;
+    
 }
-.word{
-    flex-grow:3;
-    background-color: rgb(43, 226, 83);
+.push{
+    flex-grow: 2;
+}
 
+.a2{
+    flex-grow: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin-left: 2cm;
 }
+
 .footer{
-    flex-grow:1;
-    background-color: rgb(70, 43, 226);
+    height: 15vh;
+    
 }
