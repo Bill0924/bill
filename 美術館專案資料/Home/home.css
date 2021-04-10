@@ -1,0 +1,140 @@
+html,
+body {
+    height: 100%;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 75px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+h2 {
+    padding-right: 30px;
+}
+
+nav>ul {
+    background-color: black;
+    color: white;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: inherit;
+    display: block;
+    font-size: 12pt;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: left;
+}
+
+main {
+    height: 100%;
+    position: relative;
+    background-color: #000;
+}
+
+footer {
+    background-color: black;
+    font-size: 10pt;
+    color: white;
+    height: 150px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.SocialLinkList-items {
+    display: flex;
+    justify-content: center;
+}
+
+.SocialLink {
+    padding: 10px;
+    color: inherit;
+    font-size: 12pt;
+    text-decoration: none;
+    list-style: none;
+}
+
+.carousel {
+    height: 100%;
+}
+
+.carousel-inner,
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item {
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-item:nth-of-type(1) {
+    background-image: url(https://raw.githubusercontent.com/Bill0924/bill/master/img/001.jpg);
+}
+
+.carousel-item:nth-of-type(2) {
+    background-image: url(https://raw.githubusercontent.com/Bill0924/bill/master/img/002.jpg);
+}
+
+.carousel-item:nth-of-type(3) {
+    background-image: url(https://raw.githubusercontent.com/Bill0924/bill/master/img/003.jpg);
+}
+
+.carousel-item:nth-of-type(4) {
+    background-image: url(https://raw.githubusercontent.com/Bill0924/bill/master/img/004.jpg);
+}
+
+.carousel-caption {
+    left: 15%;
+    right: 60%;
+    bottom: 15%;
+    top: auto;
+    display: none;
+    background: #110441ab;
+    padding: 20px;
+}
+
+.carousel-caption p {
+    font-size: 8pt;
+}
+
+.caption {
+    text-align: left;
+}
+
+.carousel-caption a {
+    font-size: 10pt;
+    color: inherit;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(13, 36, 138);
+    padding: 10px;
+}
+
+.carousel-caption a:hover {
+    background-color: white;
+    color: rgb(20, 40, 100);
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-caption {
+        display: block;
+    }
+}
